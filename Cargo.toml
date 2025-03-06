@@ -1,0 +1,17 @@
+[package]
+name = "secure_chat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.28", features = ["full"] }
+x25519-dalek = { version = "2.0", features = ["static_secrets"] }
+chacha20poly1305 = { version = "0.10", features = ["stream"] }
+rand = "0.8"
+blake3 = "1.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.3", features = ["derive"] }
+rpassword = "7.2"
+chrono = "0.4"
+directories = "5.0" 

@@ -1,0 +1,1 @@
+/home/manu/dev/test2/target/release/secure_chat: /home/manu/dev/test2/src/crypto.rs /home/manu/dev/test2/src/main.rs /home/manu/dev/test2/src/network.rs /home/manu/dev/test2/src/storage.rs /home/manu/dev/test2/src/ui.rs
